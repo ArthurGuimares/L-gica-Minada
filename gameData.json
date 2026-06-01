@@ -49,8 +49,7 @@
  "answer": 0
  },
  {
- "question": "A frase 'Se acertar, entao continua vivo'
-representa:",
+ "question": "A frase 'Se acertar, entao continua vivo' representa:",
  "options": ["Conjuncao", "Disjuncao", "Negacao", "Implicacao"],
  "answer": 3
  },
@@ -80,15 +79,13 @@ representa:",
  "answer": 1
  },
  {
- "question": "Se p = peguei diamante e q = ganhei pontos, 'se p
-entao q' e:",
+ "question": "Se p = peguei diamante e q = ganhei pontos, 'se p entao q' e:",
  "options": ["p ∧ q", "p ∨ q", "p → q", "¬p"],
  "answer": 2
  },
  {
  "question": "Se p e verdadeiro e q e falso, p ∧ q e:",
- "options": ["Verdadeiro", "Falso", "Indefinido", "Uma
-implicacao"],
+ "options": ["Verdadeiro", "Falso", "Indefinido", "Uma implicacao"],
  "answer": 1
  },
  {
@@ -98,8 +95,7 @@ implicacao"],
  },
  {
  "question": "A negacao de 'peguei diamante' e:",
- "options": ["Peguei bomba", "Nao peguei diamante", "Peguei
-diamante e bomba", "Se peguei, pontuei"],
+ "options": ["Peguei bomba", "Nao peguei diamante", "Peguei diamante e bomba", "Se peguei, pontuei"],
  "answer": 1
  },
  {
@@ -110,8 +106,7 @@ diamante e bomba", "Se peguei, pontuei"],
  },
  {
  "question": "Em p → q, q e chamado de:",
- "options": ["Antecedente", "Consequente", "Conjuncao", "Tabela
-verdade"],
+ "options": ["Antecedente", "Consequente", "Conjuncao", "Tabela verdade"],
  "answer": 1
  }
  ]
