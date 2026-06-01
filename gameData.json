@@ -82,4 +82,31 @@
       "question": "Se p = peguei diamante e q = ganhei pontos, 'se p entao q' e:",
       "options": ["p ∧ q", "p ∨ q", "p → q", "¬p"],
       "answer": 2
+    },
+    {
+      "question": "Se p e verdadeiro e q e falso, p ∧ q e:",
+      "options": ["Verdadeiro", "Falso", "Indefinido", "Uma implicacao"],
+      "answer": 1
+    },
+    {
+      "question": "Se p e falso e q e verdadeiro, p ∨ q e:",
+      "options": ["Verdadeiro", "Falso", "Negacao", "Contradicao"],
+      "answer": 0
+    },
+    {
+      "question": "A negacao de 'peguei diamante' e:",
+      "options": ["Peguei bomba", "Nao peguei diamante", "Peguei diamante e bomba", "Se peguei, pontuei"],
+      "answer": 1
+    },
+    {
+      "question": "Em p → q, p e chamado de:",
+      "options": ["Consequente", "Antecedente", "Negacao", "Disjuncao"],
+      "answer": 1
+    },
+    {
+      "question": "Em p → q, q e chamado de:",
+      "options": ["Antecedente", "Consequente", "Conjuncao", "Tabela verdade"],
+      "answer": 1
     }
+  ]
+}
