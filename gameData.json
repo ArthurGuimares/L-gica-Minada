@@ -1,1 +1,112 @@
-
+{
+  "tamanhoTabuleiro": 25,
+  "quantidadeBombas": 5,
+  "bombas": [2, 7, 12, 18, 23],
+  "vidasIniciais": 3,
+  "tempoPergunta": 10,
+  "pontosPorDiamante": 10,
+  "pontosPorAcerto": 15,
+  "bonusSequencia": [
+    {
+      "sequencia": 3,
+      "pontos": 20,
+      "tempoExtra": 5,
+      "escudo": 0,
+      "vidas": 0,
+      "mensagem": "Sequencia de 3 diamantes! +5s nas perguntas."
+    },
+    {
+      "sequencia": 5,
+      "pontos": 30,
+      "tempoExtra": 0,
+      "escudo": 1,
+      "vidas": 0,
+      "mensagem": "Sequencia de 5 diamantes! Voce ganhou 1 escudo."
+    },
+    {
+      "sequencia": 8,
+      "pontos": 50,
+      "tempoExtra": 0,
+      "escudo": 0,
+      "vidas": 1,
+      "mensagem": "Sequencia de 8 diamantes! Voce ganhou 1 vida extra."
+    }
+  ],
+  "perguntas": [
+    {
+      "question": "Qual simbolo representa E?",
+      "options": ["∨", "∧", "¬", "→"],
+      "answer": 1
+    },
+    {
+      "question": "Qual simbolo representa OU?",
+      "options": ["¬", "→", "∨", "∧"],
+      "answer": 2
+    },
+    {
+      "question": "Qual simbolo representa NAO?",
+      "options": ["¬", "∧", "∨", "→"],
+      "answer": 0
+    },
+    {
+      "question": "A frase 'Se acertar, entao continua vivo' representa:",
+      "options": ["Conjuncao", "Disjuncao", "Negacao", "Implicacao"],
+      "answer": 3
+    },
+    {
+      "question": "'Peguei diamante E ganhei vida' representa:",
+      "options": ["p ∧ q", "p ∨ q", "¬p", "p → q"],
+      "answer": 0
+    },
+    {
+      "question": "'Peguei diamante OU ganhei bonus' representa:",
+      "options": ["p ∧ q", "p ∨ q", "¬p", "p → q"],
+      "answer": 1
+    },
+    {
+      "question": "'Nao encontrei bomba' pode ser representado por:",
+      "options": ["p ∧ q", "p ∨ q", "¬p", "p → q"],
+      "answer": 2
+    },
+    {
+      "question": "A palavra 'E' na logica significa:",
+      "options": ["Conjuncao", "Disjuncao", "Negacao", "Implicacao"],
+      "answer": 0
+    },
+    {
+      "question": "A palavra 'OU' na logica significa:",
+      "options": ["Conjuncao", "Disjuncao", "Negacao", "Implicacao"],
+      "answer": 1
+    },
+    {
+      "question": "Se p = peguei diamante e q = ganhei pontos, 'se p entao q' e:",
+      "options": ["p ∧ q", "p ∨ q", "p → q", "¬p"],
+      "answer": 2
+    },
+    {
+      "question": "Se p e verdadeiro e q e falso, p ∧ q e:",
+      "options": ["Verdadeiro", "Falso", "Indefinido", "Uma implicacao"],
+      "answer": 1
+    },
+    {
+      "question": "Se p e falso e q e verdadeiro, p ∨ q e:",
+      "options": ["Verdadeiro", "Falso", "Negacao", "Contradicao"],
+      "answer": 0
+    },
+    {
+      "question": "A negacao de 'peguei diamante' e:",
+      "options": ["Peguei bomba", "Nao peguei diamante", "Peguei diamante e bomba", "Se peguei, pontuei"],
+      "answer": 1
+    },
+    {
+      "question": "Em p → q, p e chamado de:",
+      "options": ["Consequente", "Antecedente", "Negacao", "Disjuncao"],
+      "answer": 1
+    },
+    {
+      "question": "Em p → q, q e chamado de:",
+      "options": ["Antecedente", "Consequente", "Conjuncao", "Tabela verdade"],
+      "answer": 1
+    }
+  ]
+}
